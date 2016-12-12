@@ -1,0 +1,180 @@
+.sidebar {
+	text-align: center;
+	padding: 2rem 1rem;
+	color: rgba(255,255,255,.5);
+	background-color: #202020;
+}
+
+@media (min-width: 48em) {
+	.sidebar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 18rem;
+		text-align: left;
+	}
+}
+
+.container {
+	max-width: 38rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (min-width: 48em) {
+	.sidebar-sticky {
+		position: absolute;
+		right: 1rem;
+		bottom: 1rem;
+		left: 1rem;
+	}
+}
+
+html {
+	font-family: "PT Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 1rem; 
+}
+
+@media (min-width: 38em) {
+	html {
+		font-size: 20px;
+	}
+}
+
+@media (min-width: 48em) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 58em) {
+	html {
+		font-size: 20px;
+	}
+}
+
+.sidebar-about h1 {
+	color: #fff;
+	margin-top: 0;
+	margin-bottom: 1rem;
+	font-family: "Abril Fatface", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: .5rem;
+	font-weight: bold;
+	line-height: 1.25;
+	color: #313131;
+	text-rendering: optimizeLegibility;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+.lead {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.sidebar-nav {
+	margin-bottom: 1rem;
+	display: block;
+}
+
+.sidebar a {
+	color: #fff;
+}
+
+.sidebar-nav-item {
+	display: block;
+	line-height: 1.75;
+}
+
+a {
+	color: #268bd2;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #268bd2;
+	text-decoration: none;
+}
+
+.content {
+	padding-top: 1rem;
+	padding-bottom: 4rem;
+}
+
+@media (min-width: 48em) {
+	.content {
+		max-width: 38rem;
+		margin-left: 20rem;
+	}
+}
+
+@media (min-width: 64em) {
+	.content {
+		margin-left: 22rem;
+		margin-right: 4rem;
+	}
+}
+
+.post {
+	margin-bottom: 4em;
+	color: #303030;
+}
+
+.post-title a {
+	color: #303030;
+}
+
+.post-title {
+	margin-top: 1rem;
+}
+
+.post-date {
+	display: block;
+	margin-top: -.5rem;
+	margin-bottom: 1rem;
+	color: #9a9a9a;
+}
+
+.post-date:after {
+	display: block;
+	width: 25%;
+	height: 1px;
+	margin: 20px 0 26px;
+	background-color: #555;
+	border: 0;
+	content: " ";
+	opacity: .5;
+}
+
+.message {
+	background-color: #ECECEC;
+	padding: 15px;
+	color: #717171;
+	border-radius: 5px;
+	border-top: 5px solid #BF55EC;
+}
